@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gobal VS Local</title>
+  </head>
+  <body>
+    <button id="add" onclick="add()">Add</button>
+    <button id="minus" onclick="minus()">Minus</button>
+    <button id="multiply" onclick="multiply()">Multiply</button>
+    <button id="divid" onclick="divid()">Divid</button>
+  </body>
+
+  <script>
+    //GLobal BLock elemments/ Global
+
+    //function testScope() {
+    // const test = "im local ";
+    // console.log(test);
+
+    // testScope(); //output: im local
+    // console.log(test); // output im global
+
+    function add() {
+      let num1 = prompt("FirstNumber", "0");
+      let num2 = prompt("SecondNumber");
+      let total = num1 - num2;
+      alert(total);
+    }
+
+    function minus() {
+      let num1 = prompt("FirstNumber", "0");
+      let num2 = prompt("SecondNumber");
+      let total = num1 - num2;
+      alert(total);
+    }
+
+    function multiply() {
+      let num1 = prompt("FirstNumber", "0");
+      let num2 = prompt("SecondNumber");
+      let total = num1 * num2;
+      alert(total);
+    }
+
+    function divid() {
+      let num1 = prompt("FirstNumber", "0");
+      let num2 = prompt("SecondNumber");
+      let total = num1 / num2;
+      alert(total);
+    }
+  </script>
+</html>
