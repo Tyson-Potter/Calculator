@@ -22,10 +22,10 @@
     // testScope(); //output: im local
     // console.log(test); // output im global
 
-    function add() {
+   function add() {
       let num1 = prompt("FirstNumber", "0");
-      let num2 = prompt("SecondNumber");
-      let total = num1 - num2;
+      let num2 = prompt("SecondNumber", "0");
+      let total = Number(num1) + Number(num2);
       alert(total);
     }
 
